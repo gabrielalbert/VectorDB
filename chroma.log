@@ -1,0 +1,88 @@
+[33mWARNING[0m:  [20-01-2025 16:15:11] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-01-2025 16:15:12] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component System
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component SqliteDB
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component Posthog
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component LocalExecutor
+[36mDEBUG[0m:    [20-01-2025 16:15:12] Starting component SegmentAPI
+[32mINFO[0m:     [20-01-2025 16:15:12] Started server process [[36m22164[0m]
+[32mINFO[0m:     [20-01-2025 16:15:12] Waiting for application startup.
+[32mINFO[0m:     [20-01-2025 16:15:12] Application startup complete.
+[32mINFO[0m:     [20-01-2025 16:15:12] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-01-2025 16:17:32] Shutting down
+[32mINFO[0m:     [20-01-2025 16:17:32] Waiting for application shutdown.
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component System
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component SegmentAPI
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component LocalExecutor
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component Posthog
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component SqliteDB
+[36mDEBUG[0m:    [20-01-2025 16:17:32] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [20-01-2025 16:17:32] Application shutdown complete.
+[32mINFO[0m:     [20-01-2025 16:17:32] Finished server process [[36m22164[0m]
+[33mWARNING[0m:  [20-01-2025 16:20:40] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-01-2025 16:20:41] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component System
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component SqliteDB
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component Posthog
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component LocalExecutor
+[36mDEBUG[0m:    [20-01-2025 16:20:41] Starting component SegmentAPI
+[32mINFO[0m:     [20-01-2025 16:20:41] Started server process [[36m20572[0m]
+[32mINFO[0m:     [20-01-2025 16:20:41] Waiting for application startup.
+[32mINFO[0m:     [20-01-2025 16:20:41] Application startup complete.
+[32mINFO[0m:     [20-01-2025 16:20:41] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-01-2025 16:20:58] ::1:64919 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-01-2025 16:20:58] ::1:64919 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-01-2025 16:20:58] ::1:64920 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 409
+[32mINFO[0m:     [20-01-2025 16:21:19] ::1:64925 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [20-01-2025 16:21:19] ::1:64925 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [20-01-2025 16:21:19] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [20-01-2025 16:21:19] ::1:64926 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-01-2025 16:21:20] ::1:64926 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [20-01-2025 16:21:20] Starting component PersistentLocalHnswSegment
+[33mWARNING[0m:  [20-01-2025 16:21:20] Insert of existing embedding ID: id1
+[33mWARNING[0m:  [20-01-2025 16:21:20] Insert of existing embedding ID: id2
+[33mWARNING[0m:  [20-01-2025 16:21:20] Add of existing embedding ID: id1
+[33mWARNING[0m:  [20-01-2025 16:21:20] Add of existing embedding ID: id2
+[32mINFO[0m:     [20-01-2025 16:21:20] ::1:64926 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/add HTTP/1.1" 201
+[32mINFO[0m:     [20-01-2025 16:21:20] ::1:64926 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/query HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:39:15] ::1:65388 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:39:15] ::1:65388 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [21-01-2025 00:39:15] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [21-01-2025 00:39:15] ::1:65389 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:44:02] ::1:65422 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:44:02] ::1:65422 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [21-01-2025 00:44:02] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [21-01-2025 00:44:02] ::1:65423 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:44:05] ::1:65423 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:44:05] ::1:65423 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/add HTTP/1.1" 201
+[32mINFO[0m:     [21-01-2025 00:44:06] ::1:65423 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/query HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:44:50] ::1:65428 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:44:50] ::1:65428 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [21-01-2025 00:44:50] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [21-01-2025 00:44:50] ::1:65429 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:44:55] ::1:65429 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[33mWARNING[0m:  [21-01-2025 00:44:55] Insert of existing embedding ID: id3
+[33mWARNING[0m:  [21-01-2025 00:44:55] Insert of existing embedding ID: id4
+[33mWARNING[0m:  [21-01-2025 00:44:55] Add of existing embedding ID: id3
+[33mWARNING[0m:  [21-01-2025 00:44:55] Add of existing embedding ID: id4
+[32mINFO[0m:     [21-01-2025 00:44:55] ::1:65429 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/add HTTP/1.1" 201
+[32mINFO[0m:     [21-01-2025 00:44:56] ::1:65429 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/query HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:46:06] ::1:65434 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:46:06] ::1:65434 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [21-01-2025 00:46:06] Collection my_collection already exists, returning existing collection.
+[32mINFO[0m:     [21-01-2025 00:46:06] ::1:65435 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:46:10] ::1:65435 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [21-01-2025 00:46:10] ::1:65435 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/add HTTP/1.1" 201
+[33mWARNING[0m:  [21-01-2025 00:46:11] Number of requested results 10 is greater than number of elements in index 6, updating n_results = 6
+[32mINFO[0m:     [21-01-2025 00:46:11] ::1:65435 - "POST /api/v1/collections/636a1e98-aa89-4107-980e-3e3a65af3303/query HTTP/1.1" 200
