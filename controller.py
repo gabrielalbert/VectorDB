@@ -113,9 +113,10 @@ async def add_repo(data: AddRepo, db_pool: asyncpg.Pool = Depends(get_postgres))
     try:
         repo_files = await get_files_by_reponame(reponame=data.repo_name, db_pool=db_pool)
         print(repo_files)
+        static_folder = "C:\Alwin\Learning\LLM learning\VectorDB\Files"
         for file_name in repo_files:
             try:
-                file_path = os.path.join(upload_dir, file_name)
+                file_path = os.path.join(static_folder, file_name)
                 print(file_path)
                 add_file(get_addfile(collection_name = data.repo_name.replace(" ", "_"),
                                      file_path = file_path, 
