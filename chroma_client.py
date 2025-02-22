@@ -2,7 +2,7 @@ import chromadb
 from chromadb.utils import embedding_functions
 
 class ChromaDBClient:
-    def __init__(self, embed_model, db_path="C:\Alwin\Learning\LLM learning\VectorDB\data"):
+    def __init__(self, embed_model, db_path="\data"):
         self.client = chromadb.PersistentClient(path=db_path)
         sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
             model_name = embed_model
